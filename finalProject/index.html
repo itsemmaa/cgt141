@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, intial-scale=1.0">
+	<title>Crochet by Emma - Home</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script
+			src="https://kit.fontawesome.com/669b0a68f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logowhite.png" alt="logo"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa-solid fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="learn.html">LEARN</a></li>
+					<li><a href="patterns.html">PATTERNS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div><!--div class="nav-links"-->
+			<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+		</nav>
+		
+<div class="text-box">
+	<h1>Crochet by Emma</h1>
+	<p>Making learning to crochet easy, one step at a time. Whether that is a tutorial for beginners, or patterns for returning creators.
+	</p>
+	<a href="patterns.html" class="button">Get Started</a>
+</div><!--div class="text-box"-->
+		
+	</section>
+	
+<!---course--->
+<section class="getting-started">
+	<h1>Getting Started</h1>
+		<p>Learn the basic skills to get started.</p>
+	<div class="row">
+		<div class="learn-box">
+			<a href="learn.html">
+			<h3>Supplies</h3>
+			<p>What you need to get started</p>
+			</a>
+		</div>
+		<div class="learn-box">
+			<a href="learn.html">
+			<h3>Stitches</h3>
+			<p>Learn the basics of crocheting. Once you have these down, you can do anything</p>
+			</a>
+		</div>
+		<div class="learn-box">
+			<a href="learn.html">
+			<h3>Sewing</h3>
+			<p>For projects that require assembly</p>
+			</a>
+		</div>
+	</div>
+</section>
+
+<!---campus aka patterns--->
+	
+<section class="patterns">
+	<h1>Popular Patterns</h1>
+		<p>As seen on TikTok</p>
+	
+	<div class="row">
+		
+		<div class="patterns-col">
+			<img src="images/dinosaur.JPG">
+			<div class="layer">
+				<a href="dinosaur.html">
+				<h3>DINOSAUR</h3>
+				</a>
+			</div><!---div class="layer"--->
+		</div><!---div class="campus-col"--->
+		
+		<div class="patterns-col">
+			<img src="images/pearbear.JPG">
+			<div class="layer">
+				<a href="pearbear.html">
+				<h3>PEAR BEAR</h3>
+				</a>
+			</div><!---div class="layer"--->
+		</div><!---div class="campus-col"--->
+		
+		<div class="patterns-col">
+			<img src="images/frog.JPG">
+			<div class="layer">
+				<a href="frog.html">
+				<h3>FROG</h3>
+				</a>
+			</div><!---div class="layer"--->
+		</div><!---div class="campus-col"--->
+	
+	</div><!---div class="row"--->
+	
+</section>
+	
+	
+<!--- call to action --->
+	
+<section class="cta">
+	<h1>Comments? Questions? Concerns? <br> Let us know</h1>
+	<a href="contact.html" class="button">CONTACT US</a>
+</section>
+	
+<!--- footer --->
+	
+<section class="footer">
+	<h4>About Us</h4>
+		<p>I am a 19 year old college student, and this is my first ever website. I made this site <br> from scratch with html and css. I decided to make this site to teach people that learning something new doesn't <br>have to be scary or intimidating. It can be hard to know where to look when you are first starting to learn. <br> Hopefully, this website helps at least a couple people try something knew.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Emma</p>
+</section>
+	
+<!---JavaScript for Toggle Menu--->	
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+		
+	</script>
+</body>
+</html>
